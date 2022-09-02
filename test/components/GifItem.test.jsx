@@ -24,7 +24,7 @@ describe('probando componente <GifItem />', () => {
 
     test('deberia mostrar el titulo en el componente', () => { 
         render( <GifItem title={title} url={url}/> );
-        expect(  screen.getByText(title))
+        expect(  screen.getByText(title));
         
     });
 
